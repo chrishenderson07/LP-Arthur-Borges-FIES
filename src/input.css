@@ -42,5 +42,5 @@
 }
 
 .swiper-slide {
-	@apply text-center bg-red-400 flex justify-center items-center;
+	@apply text-center  flex justify-center items-center;
 }
