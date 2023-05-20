@@ -1,0 +1,46 @@
+@tailwind base;
+
+@layer base {
+	h1 {
+		@apply md:text-4xl text-2xl font-montserrat font-bold;
+	}
+
+	h2 {
+		@apply md:text-[2rem] text-xl leading-none font-montserrat font-bold;
+	}
+
+	h3 {
+		@apply sm:text-[1.5rem] text-xl leading-none font-normal;
+	}
+
+	p {
+		@apply leading-normal text-base font-poppins;
+	}
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.button {
+	@apply md:w-auto w-full bg-green md:py-4 py-2 md:px-4 px-4 text-center text-white font-poppins text-sm md:text-xl rounded-xl transition-all duration-300 hover:bg-greenHover hover:-translate-y-3;
+}
+
+.default-section {
+	@apply w-full py-12 px-2;
+}
+
+.default-child-section {
+	@apply container flex flex-col mx-auto gap-8 items-center;
+}
+
+.grid-section {
+	@apply container grid md:grid-cols-2;
+}
+
+.swiper {
+	@apply w-9/12;
+}
+
+.swiper-slide {
+	@apply text-center bg-red-400 flex justify-center items-center;
+}
