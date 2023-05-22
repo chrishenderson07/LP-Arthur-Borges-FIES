@@ -55,8 +55,16 @@ const defaultAnimationUp = {
 	delay: 150,
 	reset: true,
 }
+const whatsappAnimationUp = {
+	distance: '50px',
+	origin: 'bottom',
+	opacity: 0,
+	duration: 1500,
+	delay: 1500,
+}
 
 sr.reveal('.scroll-reveal-default', defaultAnimationUp)
+sr.reveal('.whatsapp-reveal', whatsappAnimationUp)
 
 const headlineElements = [...document.querySelectorAll('.scroll-reveal-left')]
 const casesElements = [...document.querySelectorAll('.scroll-reveal-up')]

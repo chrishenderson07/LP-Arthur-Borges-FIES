@@ -20,6 +20,7 @@ module.exports = {
 			colors: {
 				green: '#058C0A',
 				greenHover: '#07b00d',
+				whatsappGreen: '#25d366',
 				brandRed: '#DB0D15',
 				brandBlack: '#101010',
 				brandBlackBlue: '#001928',
